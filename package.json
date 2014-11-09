@@ -1,0 +1,16 @@
+{
+  "name": "instant-coffee",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "mkdir -p js & mkdir -p _coffee",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee -wc -o js _coffee"
+  },
+  "author": "ideodora",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}
